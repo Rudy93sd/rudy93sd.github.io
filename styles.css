@@ -1,0 +1,335 @@
+/* commentaire */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+h1 {
+  color: rgb(0, 174, 255);
+  opacity: 1;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h2 {
+  color: rgb(0, 174, 255);
+  text-align: center;
+  font-size: xx-large;
+}
+
+a {
+  color: red;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: white;
+}
+
+.competencelanguage li {
+  list-style: circle;
+}
+
+#menu {
+  align-items: stretch;
+
+  /*
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  */
+}
+
+#menu li a {
+  color: white;
+  DISPLAY: BLOCK;
+  PADDING-BOTTOM: 10PX;
+  PADDING-TOP: 10PX;
+}
+
+.idmoi {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.idendite {
+  color: rgb(0, 174, 255);
+  text-align: center;
+  margin-bottom: 110px;
+  font-size: xx-large;
+  font-size: 25px;
+}
+
+.idendite span {
+  display: block;
+  margin-top: 10px;
+}
+
+.moncv {
+  padding-top: 100px;
+}
+
+/* page bienvenue */
+#bienvenue {
+  min-height: 100vh;
+  background-image: url(images.php/matrix.jpeg);
+  background-size: cover;
+  min-width: 100%;
+  margin-left: 20px;
+}
+
+#bienvenue h1 {
+  color: rgb(0, 174, 255);
+}
+
+.presentation {
+  font-size: x-large;
+  padding: 10px;
+  margin: 40px;
+  text-align: justify;
+}
+
+.curriculum {
+  color: rgb(0, 174, 255);
+  font-size: large;
+  opacity: 100;
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  margin: 40px;
+}
+
+.titre1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#main {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  /* pour Mac */
+  -ms-flex-direction: row;
+  /* pour Firefox */
+  flex-direction: row;
+  /* pour Chrome */
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+
+  width: 100%;
+}
+
+#blocgauche {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 0 300px;
+  -ms-flex: 0 0 300px;
+  flex: 0 0 300px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  align-items: stretch;
+  /*contour*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.leftmenu {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+.leftresume {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+
+.ppresentation {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contenu {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  padding-left: 20px;
+}
+
+#infocontact {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin: 50px;
+}
+
+.boitecontact {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 0 40%;
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+
+  color: chocolate;
+  border-width: 30px;
+  letter-spacing: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#rensmail {
+  color: chocolate;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 0 40%;
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  text-align: center;
+  padding: 2%;
+  font-size: 30px;
+}
+
+#rensmail label {
+  display: inline-block;
+  width: 250px;
+  text-align: right;
+}
+
+#rensmail input,
+#rensmail textarea {
+  width: 300px;
+  height: 30px
+}
+
+#rensmail textarea {
+  height: 150px;
+}
+
+#rensmail input[type="submit"] {
+  width: 100px;
+  height: 20px;
+}
+
+#blocunitgauche {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  min-width: 100%;
+}
+
+.leftmenu0 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
