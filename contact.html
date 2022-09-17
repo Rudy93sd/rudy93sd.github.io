@@ -10,57 +10,94 @@
 </head>
 
 <body>
-  <div id="main">
-    <?php include("aside.htlm"); ?>
-    <?php //include(".php"); ?>
+  <aside id="blocgauche">
+    <div class="leftmenu">
+      <ul id="menu">
+        <li><a href="index.html">Bienvenue</a></li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="projetseffectues.html">Projets effectués</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="leftresume">
+      <div class="idmoi">
+        <img src="images.php/moi.jpg" width="145" height="200" />
+      </div>
+      <p class="idendite">
+        Rudolph BEAUCHET
+        <span> Développeur WEB </span>
+      </p>
 
-    <section id="contact" class="contenu">
-      <div id="infocontact">
-        <div id="tel" class="boitecontact">
-          <p class="tel">
-            Telephone : <br /> 06 15 26 66 61
-          </p>
-        </div>
-        <div id="adresse" class="boitecontact">
-          <p class="adresse">
-            Adresse : <br /> 227 chemin des bois <br /> 40300 Oeyregave
-          </p>
-        </div>
-        <!-- mail actif -->
-        <div id="mail" class="boitecontact">
-          <p class="mail">
-            Mail : <br /> beauchet.rudolph@hotmail.fr
-          </p>
-        </div>
+      <div class="competencelanguage">
+        <p>Compétences : </p>
+        <ul class="competences">
+          <li>Ordonné</li>
+          <li>Patient</li>
+          <li>Rigoureux</li>
+          <li>Travail en équipe</li>
+        </ul>
+
+        <p>Languages : </p>
+        <ul class="languages">
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javasript</li>
+        </ul>
       </div>
 
-      <div id="rensmail">
-        <form method="POST" action="traitement.html">
-          <p>
-            <label for="nom">
-              Votre nom
-            </label>
-            <input type="text" name="nom" id="nom" />
-          </p>
-          <p>
-            <label for="email">
-              Votre mail
-            </label>
-            <input type="email" name="email" id="email" />
-          </p>
-          <p>
-            <label for="message">
-              Message
-            </label>
-            <textarea name="message" id="message"></textarea>
-          </p>
-          <p>
-            <input type="submit" value="Envoyer" />
-          </p>
-        </form>
-      </div>
+      <p class="moncv"><a href="#">Télécharger mon CV</a></p>
+    </div>
+  </aside>
 
-    </section>
+  <section id="contact" class="contenu">
+    <div id="infocontact">
+      <div id="tel" class="boitecontact">
+        <p class="tel">
+          Telephone : <br /> 06 15 26 66 61
+        </p>
+      </div>
+      <div id="adresse" class="boitecontact">
+        <p class="adresse">
+          Adresse : <br /> 227 chemin des bois <br /> 40300 Oeyregave
+        </p>
+      </div>
+      <!-- mail actif -->
+      <div id="mail" class="boitecontact">
+        <p class="mail">
+          Mail : <br /> beauchet.rudolph@hotmail.fr
+        </p>
+      </div>
+    </div>
+
+    <div id="rensmail">
+      <form method="POST" action="traitement.html">
+        <p>
+          <label for="nom">
+            Votre nom
+          </label>
+          <input type="text" name="nom" id="nom" />
+        </p>
+        <p>
+          <label for="email">
+            Votre mail
+          </label>
+          <input type="email" name="email" id="email" />
+        </p>
+        <p>
+          <label for="message">
+            Message
+          </label>
+          <textarea name="message" id="message"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Envoyer" />
+        </p>
+      </form>
+    </div>
+
+  </section>
 
 </body>
 
