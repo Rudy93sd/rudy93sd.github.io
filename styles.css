@@ -38,6 +38,10 @@ ul li a {
   list-style: circle;
 }
 
+.projetseffectues li {
+  list-style: circle;
+}
+
 #menu {
   align-items: stretch;
 
