@@ -36,6 +36,7 @@ ul li a {
 
 .competencelanguage li {
   list-style: circle;
+  margin-bottom: 100px;
 }
 
 .projetseffectues li {
@@ -79,6 +80,10 @@ ul li a {
 
 .moncv {
   padding-top: 100px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  border-style: double;
+  border-color: red
 }
 
 /* page bienvenue */
