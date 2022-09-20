@@ -45,6 +45,7 @@ ul li a {
 
 #menu {
   align-items: stretch;
+  padding-left: 20px;
 
   /*
   padding: 12px;
@@ -60,6 +61,14 @@ ul li a {
   PADDING-TOP: 10PX;
 }
 
+#menu li a:hover {
+  color: red;
+}
+
+#menu li a:active {
+  color: green;
+}
+
 .idmoi {
   text-align: center;
   margin-bottom: 15px;
@@ -68,7 +77,7 @@ ul li a {
 .idendite {
   color: rgb(0, 174, 255);
   text-align: center;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   font-size: xx-large;
   font-size: 25px;
 }
@@ -84,6 +93,10 @@ ul li a {
   padding-left: 5px;
   border-style: double;
   border-color: red
+}
+
+.moncv a:hover {
+  color: green;
 }
 
 /* page bienvenue */
